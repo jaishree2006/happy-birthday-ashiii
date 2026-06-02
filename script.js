@@ -81,3 +81,36 @@ heart.remove();
 },6000);
 
 },500);
+function blowCandle(){
+
+document.getElementById("cake").innerHTML =
+"🎂💨";
+
+document.getElementById("wish").innerHTML =
+
+`
+🎉 HAPPY 20TH BIRTHDAY ASHIII ❤️
+
+<br><br>
+
+You are an amazing son 💙
+
+<br>
+
+A caring brother 🤝
+
+<br>
+
+A loyal friend 😊
+
+<br>
+
+And my favorite human ❤️
+
+<br><br>
+
+Love You Forever Baby Boi 🫶✨
+
+`;
+
+}
