@@ -93,3 +93,32 @@ h2{
     color:#ffb300;
     font-size:2.2rem;
 }
+.sunflower-section{
+    max-width:600px;
+    margin-bottom:20px;
+}
+
+.sunflower{
+    font-size:90px;
+    animation:bounce 2s infinite;
+}
+
+.sunflower-section h2{
+    color:#f4b400;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.sunflower-section p{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+@keyframes bounce{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+}
