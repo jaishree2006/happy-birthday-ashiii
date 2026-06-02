@@ -46,7 +46,20 @@ document.getElementById("slideshow").src = photos[current];
 function birthdayWish(){
 
 document.getElementById("wish").innerHTML =
-"🎉 HAPPY 20TH BIRTHDAY ASHIII ❤️<br><br>Love You Forever Baby Boi 🫶✨";
+
+`
+🎉 HAPPY 20TH BIRTHDAY ASHIII ❤️<br><br>
+
+You are an amazing son 💙<br>
+A caring brother 🤝<br>
+A loyal friend 😊<br>
+And my favorite human ❤️<br><br>
+
+May all your dreams come true ✨<br><br>
+
+Love You Forever Baby Boi 🫶
+`;
+
 }
 setInterval(() => {
 
