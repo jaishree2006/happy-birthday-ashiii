@@ -1,1 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 20th Birthday Ashiii ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- SCREEN 1 -->
+
+<div id="screen1" class="screen">
+
+<h1>🎂 Happy 20th Birthday Ashiii ❤️</h1>
+
+<p>
+A small surprise made with lots and lots of love ❤️
+</p>
+
+<button onclick="nextScreen(2)">
+🎁 Open Your Gift
+</button>
+
+</div>
+
+<!-- SCREEN 2 -->
+
+<div id="screen2" class="screen hidden">
+
+<h1>🤔 Quick Question</h1>
+
+<p>Who is the most amazing 20 year old today?</p>
+
+<button onclick="wrongAnswer()">
+Someone Else 😎
+</button>
+
+<button onclick="nextScreen(3)">
+Ashiii ❤️
+</button>
+
+<p id="wrong"></p>
+
+</div>
+
+<!-- SCREEN 3 -->
+
+<div id="screen3" class="screen hidden">
+
+<h1>✨ Why You're Special ✨</h1>
+
+<h3>Reason #1</h3>
+<p>💙 You're an amazing son.</p>
+
+<h3>Reason #2</h3>
+<p>🤝 You're a caring brother.</p>
+
+<h3>Reason #3</h3>
+<p>😊 You're a loyal friend.</p>
+
+<h3>Reason #4</h3>
+<p>🌟 You're hardworking and ambitious.</p>
+
+<h3>Reason #5</h3>
+<p>❤️ You're my favorite human.</p>
+
+<button onclick="nextScreen(4)">
+Next ➡️
+</button>
+
+</div>
+
+<!-- SCREEN 4 -->
+
+<div id="screen4" class="screen hidden">
+
+<h1>📸 Our Memories</h1>
+
+<p>
+Every picture tells a story ❤️
+</p>
+
+<img id="slideshow" src="photo1.jpg" width="320">
+
+<br><br>
+
+<button onclick="prevPhoto()">
+⬅️
+</button>
+
+<button onclick="nextPhoto()">
+➡️
+</button>
+
+<br><br>
+
+<button onclick="nextScreen(5)">
+Continue ❤️
+</button>
+
+</div>
+
+<!-- SCREEN 5 -->
+
+<div id="screen5" class="screen hidden">
+
+<h1>🎵 Our Song 🎵</h1>
+
+<p>
+One song... a thousand memories ❤️
+</p>
+
+<a href="PASTE_YOUR_SPOTIFY_LINK_HERE" target="_blank">
+
+<button>
+🎶 Play Our Song
+</button>
+
+</a>
+
+<br><br>
+
+<button onclick="nextScreen(6)">
+Open My Letter 💌
+</button>
+
+</div>
+
+<!-- SCREEN 6 -->
+
+<div id="screen6" class="screen hidden">
+
+<h1>💌 A Letter To My Baby Boi 💌</h1>
+
+<p>
+🎉 Happy 20th Birthday Baby Boi Ashiii ❤️🎂
+</p>
+
+<p>
+Innaiku un special day and honestly naan romba lucky-aa feel panren because I get to celebrate such an amazing person like you. ❤️
+</p>
+
+<p>
+Nee oru amazing son 💙,
+oru caring brother 🤝,
+oru true friend 😊,
+and most importantly...
+nee en favorite person. ❤️
+</p>
+
+<p>
+Enna sirikka vechadhu,
+support pannadhu,
+purinjukittadhu,
+ellathukkum thank you da.
+</p>
+
+<p>
+20 years-a complete pannita da! 🥳
+</p>
+
+<p>
+I hope indha pudhu chapter un life-la neraya happiness, success, adventures, peace and achievements kondu varanum. ✨
+</p>
+
+<p>
+Un dreams ellam reality aaganum.
+Un smile eppovum ippadiye irukanum. 😊
+</p>
+
+<p>
+Always remember...
+Nee romba loved ❤️
+Un family-kum,
+friends-kum,
+and especially enakkum.
+</p>
+
+<p>
+Happy 20th Birthday Ashiii ❤️🎂
+</p>
+
+<p>
+Love you so much Baby Boi ❤️✨
+</p>
+
+<button onclick="nextScreen(7)">
+Final Surprise 🎂
+</button>
+
+</div>
+
+<!-- SCREEN 7 -->
+
+<div id="screen7" class="screen hidden">
+
+<h1>🎂 Make A Wish Ashiii ✨</h1>
+
+<p>
+Ready to blow the candles? 🥳
+</p>
+
+<button onclick="birthdayWish()">
+🎂 Blow Candles
+</button>
+
+<p id="wish"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
